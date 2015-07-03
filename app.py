@@ -5,8 +5,6 @@ import tornado.ioloop
 import tornado.web
 import tornado.wsgi
 import os
-import sys
-import json
 
 
 class TestHander(tornado.web.RequestHandler):

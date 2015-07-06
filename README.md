@@ -30,20 +30,22 @@
 
 #部署到leancloud:
 
-进入目录：
-`cd leancloud_tornado`
-
-[安装leancloud命令行工具](https://leancloud.cn/docs/cloud_code_commandline.html):
+##[安装leancloud命令行工具](https://leancloud.cn/docs/cloud_code_commandline.html):
 `npm install -g avoscloud-code`
 
-添加应用信息:
-`avoscloud add <appName> <appId>`
+##添加应用信息：
 
-设置webhosting:
+ `cd leancloud_tornado`
+ 
+ `avoscloud add <appName> <appId>`
+
+##设置webhosting:
 [相关链接](https://leancloud.cn/docs/leanengine_guide-python.html#Web_Hosting)
 
-发布到leancloud中:
+##发布到leancloud中:
+
 `avoscloud deploy` 访问 dev.yourAPP.avosapps.com
+
 `avoscloud publish` 访问 yourAPP.avosapps.com
 
 

@@ -26,7 +26,7 @@
 `pip install -Ur requirements.txt`
 
 ##运行:
-`python wsgi.py` 或者 `avoscloud` 访问[ http://localhost:3000 ]
+`avoscloud` 访问[ http://localhost:3000 ]
 
 #部署到leancloud:
 

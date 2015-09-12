@@ -22,7 +22,6 @@ application = engine
 
 
 if __name__ == '__main__':
-    # 只在本地开发环境执行的代码
     server = wsgiref.simple_server.make_server('', 3000, application)
     sa = server.socket.getsockname()
     print "Serving HTTP on", sa[0], "port", sa[1], "..."
